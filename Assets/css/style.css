@@ -1,0 +1,80 @@
+.header {
+    background-color: lemonchiffon;
+  }
+  nav,body{background-color:sandybrown;}
+  
+  .title {
+    color: darkblue
+  }
+  
+  img{
+    width: 200px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+  #email {
+    background-color: goldenrod;
+  }
+  
+  #github {
+    background-color: lightsteelblue;
+  }
+  
+  #portfolio {
+    background-color: darkorange;
+  }  
+  .All {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .boxl { 
+    display: flex;
+    align-items: center;
+    background-color:indigo;
+    width: 872px;
+    height: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    background-image: url('');
+
+
+  }
+  span{
+    display: flex;
+    background-color: aquamarine;
+  }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: indigo;
+    width: 350px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+  .box:hover{
+    transform: scale(1.2);
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 76%;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  @media screen and (max-width:992px){ .box{display: flex;
+  flex-wrap: wrap;
+width: 50%;}
+    
+  }
