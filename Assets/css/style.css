@@ -1,3 +1,13 @@
+ * {
+margin: 0;
+padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+
 .header {
     background-color: lemonchiffon;
   }
@@ -65,22 +75,16 @@
     margin-left: 76%;
   }
   .footer {
-    display: list-item;
-    justify-content: space-between;
-  }
-  .footer {
-    display: inline-table;
-    justify-content: left;
-    text-align: left;
-  }
+  background-color: 0;
+  height: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
   @media screen and (max-width:992px){ .box{display: flex;
   flex-wrap: wrap;
 width: 50%;}
     
-  }
-  h3{
-    display: inline;
-   position: relative;
-   text-align: center;
   }
   
